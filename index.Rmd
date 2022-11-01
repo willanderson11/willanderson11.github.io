@@ -1,0 +1,23 @@
+---
+title: "William Anderson's Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+I am currently pursuing an MS in Biostatistics at Columbia University Mailman School of Public Health. I am a first-year student in the Theory and Methods Track. 
+
+![](images\WilliamAndersonHeadshot.jpg){width=50%}
+
+This site also gives links to my GitHub account, my email, and my LinkedIn Profile by clicking the three stripes button in the top-right corner. 
+
+Here's a direct link to my [resume](resume.html).
+
+In my spare time, I enjoy rock climbing and skiing
+
+
+![](images\IMG_0316.jpg){width=75%}
+![](images\img_5599.jpg){width=75%}
+
+

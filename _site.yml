@@ -1,0 +1,16 @@
+name: "William Anderson's website"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Resume"
+      href: resume.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<william.anderson@columbia.edu>    
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/will-anderson-7872a220b/
+    - icon: fa-github fa-lg
+      href: http://github.com/willanderson11
+output:
+  html_document:
+    theme: flatly

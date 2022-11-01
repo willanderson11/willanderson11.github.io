@@ -1,0 +1,96 @@
+---
+title: "Resume"
+output: 
+  html_document
+---
+
+**EDUCATION**
+
+• Columbia University Mailman School of Public Health - September 2022 - May 2024
+
+   - M.S. Candidate in Biostatistics 
+
+• Arizona State University – August 2015 – December 2021
+
+   - B.S.E. summa cum laude in Biomedical Engineering
+
+**AWARDS**
+
+• Dean’s List for Fulton Schools of Engineering, Arizona State University, January 2017 – May 2020
+
+• Dean’s List for College of Liberal Arts and Science, Arizona State University, August 2015 – December 2016
+
+**TECHNICAL SKILLS**
+
+• Experienced with programming in Python, C++, R, SPSS, Excel, and MATLAB
+
+• Skilled in computer-aided design programs of SolidWorks and AutoCAD
+
+**ACADEMIC AND WORK EXPERIENCE**
+
+**Patent Examiner – United States Patent & Trademark Office, August 2020 – June 2021**
+
+• Examined patent applications filed for biomedical devices and systems
+
+• Experienced in using dedicated search tools to examine biomedical prior art
+
+• Developed complex search strings encompassing vast databases
+
+**Developed brachytherapy catheter – Arizona State University, August 2019 – May 2020**
+
+• Collaborated with oncology physicians and patients to develop optimal device
+
+• Conducted digital modeling, mechanical testing, and device manufacturing
+
+• Presented results and final prototype of device at university-wide symposium
+
+**Undergraduate Research Fellow – Los Alamos National Laboratory, June 2019 – August 2019**
+
+• Implemented machine-learning algorithm into heart cell research
+
+• Developed computer algorithms to detect abnormal heart beats from video
+
+• Published results in scientific journal, presented findings at international conference
+
+• Anderson W. et al. Detecting Nonsynchronous Heart Cells from Video – An Unsupervised
+Machine Learning Approach. In: Dilworth B., Mains M. (eds) Topics in Modal Analysis &
+Testing, Volume 8. Conference Proceedings of the Society for Experimental Mechanics
+Series.
+
+**Undergraduate Teaching Assistant – Arizona State University, August 2018 – May 2020**
+
+• Performed teaching and exam review sessions for biomedical engineering class
+
+• Worked with professors to develop optimal learning activities
+
+• Assisted and tutored undergraduate students in daily lessons
+
+**Executive Officer of Biomedical Engineering Society – ASU Chapter, August 2018 – May 2020**
+
+• Organized large social events and coordinated with engineering faculty
+
+• Gave presentations regarding engineering research topics and laboratory tours
+
+• Facilitated student attendance for international conference proceedings
+
+**Undergraduate Research Fellow – University of Michigan, May 2018 – August 2018**
+
+• Researched pathology and physiology of genetic forms of epilepsy
+
+• Performed mouse heart dissections to observe effects of epilepsy on heart
+
+• Analyzed images and data in statistical software, gave presentation on findings
+
+**Biomedical Device Technician Apprentice – Mountain Vista Medical Center, August 2017 – May 2018**
+
+• Assisted technicians in preventive maintenance appointments
+
+• Repaired mechanical and electrical systems within medical devices
+
+• Experienced in soldering and diagnostic tests
+
+**Pathology Laboratory Volunteer – Banner Gateway Medical Center, August 2017 – May 2018**
+
+• Assisted pathologists in sorting and retrieving pathological samples
+
+• Helped to mark imaged samples with indications of tumor location
