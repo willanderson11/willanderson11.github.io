@@ -1,0 +1,93 @@
+---
+title: "Problem 2"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r, warning = FALSE, message = FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+We will load the NY NOAA dataset and tidy it before plotting
+
+```{r, warning = FALSE}
+data("ny_noaa")
+
+ny_noaa_tidy = 
+  
+  sample_n(ny_noaa, 2000) %>%
+  
+  janitor::clean_names() %>%
+  
+  separate(date, into = c("Year", "Month", "Day")) %>%
+  
+  mutate(tmax = as.numeric(tmax), tmin = as.numeric(tmin), Year = as.numeric(Year), Month = as.numeric(Month), Day = as.numeric(Day), snow = as.numeric(snow)) %>%
+  
+   mutate(Month = month.name[Month]) %>%
+  
+  mutate(tmax = tmax/10, 
+         tmin = tmin/10, 
+         prcp = prcp/10)
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r, warning = FALSE, message = FALSE}
+ny_noaa_tidy %>%
+
+  group_by(id, Year) %>%
+
+  summarize(mean_tmax = mean(tmax, na.rm = TRUE)) %>%
+
+  mutate(Year = as.character(Year)) %>%
+  
+  plot_ly(x = ~Year, y = ~mean_tmax, type = "box", color = ~Year, colors = "plasma") %>%
+  
+  layout(title = "Average Max Temps Distribution For All NY Stations per Year",
+         yaxis = list(title = "Average Maximum Temperature (C)", zeroline = F), 
+         xaxis = list(dtick = 4, tick0 = 1981, tickmode = "linear"))
+```
+  
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r, warning = FALSE}
+ny_noaa_tidy %>%
+  
+group_by(Year) %>%
+
+summarize(mean_tmin = mean(tmin, na.rm = TRUE)) %>%
+  
+plot_ly(x = ~Year, y = ~mean_tmin, type = "scatter", mode = "lines+markers") %>%
+  layout(title = "Average Minimum Temp Per Year in New York",
+         yaxis = list(title = "Average Minimum Temperature (C)", zeroline = F))
+```
+
+### Chart C
+
+```{r, warning = FALSE, message = FALSE}
+ny_noaa_tidy %>%
+  
+  group_by(Year, Month, prcp) %>%
+  summarize(mean_prcp = mean(prcp, na.rm = TRUE)) %>%
+  mutate(Month = factor(Month, levels = month.name), Year = as.character(Year)) %>%
+  plot_ly(x = ~Year, y = ~mean_prcp, type = "bar", color = ~Month, colors = "viridis") %>%
+  layout(title = "Average Precipitation Per Month Per Year in NY",
+         yaxis = list(title = "Average Precipitation (mm)"))
+
+```
+

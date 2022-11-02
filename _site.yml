@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
+    - text: "Problem 2 Flex Dashboard Graphs"
+      href: problem_2_flex_dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<william.anderson@columbia.edu>    
     - icon: fa-linkedin fa-lg
