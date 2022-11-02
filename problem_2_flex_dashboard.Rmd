@@ -2,8 +2,7 @@
 title: "Problem 2"
 output: 
   flexdashboard::flex_dashboard:
-    orientation: columns
-    vertical_layout: fill
+    vertical_layout: scroll
     source: embed
 ---
 
@@ -14,7 +13,6 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-We will load the NY NOAA dataset and tidy it before plotting
 
 ```{r, warning = FALSE}
 data("ny_noaa")
@@ -37,9 +35,6 @@ ny_noaa_tidy =
 ```
 
 
-Column {data-width=650}
------------------------------------------------------------------------
-
 ### Chart A
 
 ```{r, warning = FALSE, message = FALSE}
@@ -59,9 +54,6 @@ ny_noaa_tidy %>%
 ```
   
 
-
-Column {data-width=350}
------------------------------------------------------------------------
 
 ### Chart B
 

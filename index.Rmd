@@ -10,7 +10,7 @@ I am currently pursuing an MS in Biostatistics at Columbia University Mailman Sc
 
 ![](images\WilliamAndersonHeadshot.jpg){width=50%}
 
-This site also gives links to my GitHub account, my email, and my LinkedIn Profile by clicking the three stripes button in the top-right corner. 
+This site also gives links to my GitHub account, my email, and my LinkedIn Profile by clicking the links in the top-right corner. 
 
 Here's a direct link to my [resume](resume.html).
 
